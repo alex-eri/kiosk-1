@@ -1,0 +1,9 @@
+import escpos.printer
+
+p=escpos.printer.File('/dev/usb/lp0')
+
+p._raw(b'\x1d\xf6')
+p.image(imgr)
+p._raw(b'\x1d\xf8')
+p.cut(feed=False)
+

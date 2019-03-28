@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Kiosk.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>img/point.svg</file>
+        <file>img/pointA.svg</file>
+        <file>pages/Timeout.qml</file>
+        <file>pages/Touch.qml</file>
+        <file>pages/Hello.qml</file>
+        <file>pages/Number.qml</file>
+        <file>pages/Help.qml</file>
+        <file>pages/Wifi.qml</file>
+        <file>img/unsplash.jpg</file>
+        <file>pages/Tickets.qml</file>
+        <file>pages/Settings.qml</file>
+        <file>pages/Numpad.qml</file>
+        <file>pages/Lock.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,76 @@
+all	Makefile	/^all: build$/;"	t
+build	Makefile	/^build: build\/kiosk$/;"	t
+build/kiosk	Makefile	/^build\/kiosk: src\/content\/resource.py src\/kiosk.py Makefile$/;"	t
+src/content/resource.py	Makefile	/^src\/content\/resource.py: kiosk.qrc Kiosk.qml Makefile qtquickcontrols2.conf$/;"	t
+Controls	qtquickcontrols2.conf	/^[Controls]$/;"	s
+Style	qtquickcontrols2.conf	/^Style=Material$/;"	k	section:Controls
+Material	qtquickcontrols2.conf	/^[Material]$/;"	s
+Accent	qtquickcontrols2.conf	/^Accent=Indigo$/;"	k	section:Material
+Primary	qtquickcontrols2.conf	/^Primary=Pink$/;"	k	section:Material
+Theme	qtquickcontrols2.conf	/^Theme=Light$/;"	k	section:Material
+Variant	qtquickcontrols2.conf	/^Variant=Normal$/;"	k	section:Material
+0	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	o	array:tickets
+film	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.0
+zal	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.0
+seat	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.0
+time	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.0
+data	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.0
+price	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	n	object:tickets.0
+kassa	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	s	object:tickets.0
+1	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	o	array:tickets
+film	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.1
+zal	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.1
+seat	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.1
+time	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.1
+data	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.1
+price	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	n	object:tickets.1
+kassa	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	s	object:tickets.1
+2	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	o	array:tickets
+film	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.2
+zal	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.2
+seat	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.2
+time	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.2
+data	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.2
+price	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	n	object:tickets.2
+kassa	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	s	object:tickets.2
+3	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	o	array:tickets
+film	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.3
+zal	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.3
+seat	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.3
+time	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.3
+data	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.3
+price	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	n	object:tickets.3
+kassa	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	s	object:tickets.3
+4	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	o	array:tickets
+film	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.4
+zal	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.4
+seat	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.4
+time	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.4
+data	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.4
+price	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	n	object:tickets.4
+kassa	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	s	object:tickets.4
+5	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	o	array:tickets
+film	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.5
+zal	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.5
+seat	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.5
+time	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.5
+data	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.5
+price	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	n	object:tickets.5
+kassa	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	s	object:tickets.5
+6	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	o	array:tickets
+film	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.6
+zal	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.6
+seat	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.6
+time	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.6
+data	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.6
+price	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	n	object:tickets.6
+kassa	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" },$/;"	s	object:tickets.6
+7	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	o	array:tickets
+film	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.7
+zal	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.7
+seat	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.7
+time	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.7
+data	tickets-example.json	/^{ "film": "Зелёная книга", "zal": "Зал 4", "seat": "Ряд 1, место 1", "tim/;"	s	object:tickets.7
+price	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" }$/;"	n	object:tickets.7
+kassa	tickets-example.json	/^"26.02.2019", "price": 280, "kassa": "Онлайн касса" }$/;"	s	object:tickets.7
+tickets	tickets-example.json	/^{ "tickets": [$/;"	a
